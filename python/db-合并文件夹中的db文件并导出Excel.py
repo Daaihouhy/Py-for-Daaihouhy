@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 
 # 文件夹路径，假设你的数据库文件都存放在这个文件夹中
-folder_path = r'C:\Users\daihao\Desktop\a'
+folder_path = r'输入文件夹路径'
 
 # 假设所有数据库中的表名都是相同的
 table_name = 'WQDSYQRJSYD_KZ'  # 您要合并的表名
@@ -36,7 +36,7 @@ for db_filename in tqdm(db_files, desc='Merging databases', unit='db'):
 merged_df = pd.concat(df_list, ignore_index=True)
 
 # 将合并后的数据导出到Excel
-excel_output = r'C:\Users\daihao\Desktop\merged_data.xlsx'
+excel_output = r'导出Excel路径'
 merged_df.to_excel(excel_output, index=False)
 
 print(f'Merged data has been exported to {excel_output}')
