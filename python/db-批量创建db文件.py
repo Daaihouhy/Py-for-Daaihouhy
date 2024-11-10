@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 # 全局变量
-base_path = r'/Volumes/expand for Daaihou/download/'
+base_path = r'输入文件夹路径'
 custom_names = ['custom_db_1', 'custom_db_2', 'custom_db_3']
 table_name = 'WQDSYQRJSYD_KZ'
 table_columns = """
