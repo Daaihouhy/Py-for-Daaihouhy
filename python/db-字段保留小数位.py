@@ -3,7 +3,7 @@ import os
 import glob
 
 # 文件夹路径
-folder_path = r'C:\Users\daihao\Desktop\新建文件夹'
+folder_path = r'输入文件夹路径'
 
 # db文件匹配模式
 db_pattern = os.path.join(folder_path, '*.db')
