@@ -2,7 +2,7 @@ import sqlite3  # 导入sqlite3库以与SQLite数据库交互
 import os  # 导入os库以使用操作系统相关的功能
 
 # 指定包含数据库文件的文件夹路径
-folder_path = r'C:\Users\daihao\Desktop\新建文件夹'
+folder_path = r'输入文件夹路径'
 
 # 获取指定文件夹内所有以.db为扩展名的文件
 db_files = [file for file in os.listdir(folder_path) if file.endswith('.db')]
