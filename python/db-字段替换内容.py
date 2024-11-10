@@ -11,7 +11,7 @@ table_column_old_new_map = {
 }
 
 # 遍历指定目录下所有的 .db 文件
-db_folder = r'C:\Users\daihao\Desktop\新建文件夹'
+db_folder = r'输入db文件文件夹路径'
 print("开始遍历文件夹中的.db文件...")
 
 for filename in os.listdir(db_folder):
