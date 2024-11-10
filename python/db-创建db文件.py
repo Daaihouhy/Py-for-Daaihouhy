@@ -2,7 +2,7 @@
 import sqlite3
 
 # 数据库文件名，路径使用了原始字符串表示法以支持反斜杠
-db_file = r'/Volumes/expand for Daaihou/download/数据库1.db'
+db_file = r'输入db表路径'
 
 try:
     # 连接到 SQLite 数据库
